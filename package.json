@@ -1,0 +1,34 @@
+{
+  "name": "json2parameterstore",
+  "version": "1.0.1",
+  "description": "a tool that are built by NodeJs to convert app settings in json to aws parameter store",
+  "main": "src/index.js",
+  "scripts": {
+    "start" : "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ddoffy/json2parameterstore.git"
+  },
+  "keywords": [
+    "json2parameterstore",
+    "json",
+    "aws",
+    "parameter",
+    "store",
+    "nodejs",
+    "sdk",
+    "ssm",
+    "clien"
+  ],
+  "author": "D. Doffy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ddoffy/json2parameterstore/issues"
+  },
+  "homepage": "https://github.com/ddoffy/json2parameterstore#readme",
+  "dependencies": {
+    "@aws-sdk/client-ssm": "^3.264.0"
+  }
+}
